@@ -45,6 +45,7 @@ Tabset Panels:
 
 <!--head-->
 
+
 ```{=html}
 <div class="banner">
   <p>
@@ -84,7 +85,7 @@ var imgs = document.getElementsByClassName('myClass1');
 ```{=html}
 <div class = "title">
   <h1>
-  DRAFT GLKN Water Quality Visualizer
+  Draft GLKN Water Quality Visualizer
   </h1>
 </div>
 ```
@@ -1046,7 +1047,7 @@ container = {
 //Variable selection
 viewof varname = Inputs.select(
   data.map(d => d.Variable), 
-  {label: "Variable:", unique: true, sort: true, multiple: true, value: "pH"}
+  {label: "Variable: \n (Ctrl click to select multiple)", unique: true, sort: true, multiple: true, value: "pH"}
 )
 
 ```
@@ -1267,7 +1268,7 @@ button = (data, filename = 'data.csv') => {
 //|panel: input
 viewof month = Inputs.range(
   [4, 11], 
-  {value: 7, step: 1, label: "Season:" }
+  {value: 7, step: 1, label: "Month:" }
 )
 
 viewof year = Inputs.range(
@@ -1297,8 +1298,13 @@ profile_Plot("pH")
 ## Information
 ```{=html}
 <h3> Learn More </h3>
-<p> For the water quality data collection protocol, see <a href = "https://irma.nps.gov/DataStore/Reference/Profile/2290010">IRMA</a> </p>
+<h5> This data dashboard displays long-term monitoring data for the Great Lakes Region, collected by the National Park Service Great Lakes Inventory and Monitoring. </h5>
+<p> </p>
+<p> For the water quality data collection protocol, see <a href = "https://irma.nps.gov/DataStore/Reference/Profile/2290010">GLKN IRMA</a> </p>
 <p> For more informtation about Great Lakes Inventory and Monitoring, see <a href= "https://www.nps.gov/im/glkn/index.htm"> www.nps.gov/im/glkn/</a> </p>
+<p> For technical difficulties or questions about the dashbaord, please contact arno.hallie@gmail.com </p>
+<p> Thank you to the Ecological Societ of America, Scientists in Parks, and Conservation legacy for supporting this project! </p> 
+<p> <i> Please note that this dashboard is optimized for a laptop screen. Smartphone screens may not display properly. </i> </p>
 ```
 
 ::::
