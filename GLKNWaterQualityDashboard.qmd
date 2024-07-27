@@ -1301,9 +1301,9 @@ profile_Plot("pH")
 <h5> This data dashboard displays long-term monitoring data for the Great Lakes Region, collected by the National Park Service Great Lakes Inventory and Monitoring. </h5>
 <p> </p>
 <p> For the water quality data collection protocol, see <a href = "https://irma.nps.gov/DataStore/Reference/Profile/2290010">GLKN IRMA</a> </p>
-<p> For more informtation about Great Lakes Inventory and Monitoring, see <a href= "https://www.nps.gov/im/glkn/index.htm"> www.nps.gov/im/glkn/</a> </p>
-<p> For technical difficulties or questions about the dashbaord, please contact arno.hallie@gmail.com </p>
-<p> Thank you to the Ecological Societ of America, Scientists in Parks, and Conservation legacy for supporting this project! </p> 
+<p> For more information about Great Lakes Inventory and Monitoring, see <a href= "https://www.nps.gov/im/glkn/index.htm"> www.nps.gov/im/glkn/</a> </p>
+<p> For technical difficulties or questions about the dashboard, please contact arno.hallie@gmail.com </p>
+<p> Thank you to the Ecological Society of America, Scientists in Parks, and Conservation legacy for supporting this project! </p> 
 <p> <i> Please note that this dashboard is optimized for a laptop screen. Smartphone screens may not display properly. </i> </p>
 ```
 
@@ -1311,4 +1311,10 @@ profile_Plot("pH")
 
 :::::
 
+
 :::::
+
+```{ojs}
+alert("Welcome to the GLKN Water Quality Dashboard! Select a site on the left sidebar and a variable near the top of the screen to get started.");
+```
+
